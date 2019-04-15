@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  background: #EEEEEE;
+  font-family: 'Bungee Inline', cursive;
+}
+
+/*Universal*/
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  cursor:pointer;
+}
+
+a:focus {
+  text-decoration: none !important;
+}
+
+/*DROPDOWNMENU*/
+
+.show1.showTrade {
+  display: block;
+}
+
+.showTrade {
+  display: none;
+}
+.showTrade li a{
+  color: #333;
+  text-decoration:none;
+  font-size: 14px;
+}
+.showTrade li a:hover{
+  color: #1a1a1a;
+}
+
+.crimson.drop {
+  background: url(iconfinder_minus_2639865.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.dropDown {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px auto;
+}
+
+.dropDown p {
+  line-height: 30px;
+}
+
+.dropDown button {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  color: #f8f8ff;
+  background: url(iconfinder_ic_add_circle_48px_352005.png);
+  background-size: cover;
+  background-position: center;
+}
